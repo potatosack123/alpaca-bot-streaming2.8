@@ -1,0 +1,44 @@
+{
+  "symbols": "SEPN",
+  "timeframe": "1m",
+  "lunch_skip": false,
+  "risk_percent": 90.0,
+  "stop_loss_percent": 15.0,
+  "take_profit_percent": 100.0,
+  "selected_strategy": "GapAndGo",
+  "force_mode": "auto",
+  "extra_strategy_paths": [],
+  "backtest_start_date": "2025-05-13T00:00:00+00:00",
+  "backtest_end_date": "2025-05-14T23:59:59.999999+00:00",
+  "backtest_source": "polygon",
+  "strategy_slots": [
+    {
+      "enabled": true,
+      "name": "GapAndGo",
+      "priority": 1,
+      "start_hhmm": "4:00",
+      "end_hhmm": "16:00",
+      "timeframe": "1m",
+      "lunch_skip": false,
+      "use_global": false,
+      "risk_percent": 90.0,
+      "sl_percent": 15.0,
+      "tp_percent": 100.0
+    },
+    {
+      "enabled": false,
+      "name": "ORB",
+      "priority": 2,
+      "start_hhmm": "09:30",
+      "end_hhmm": "16:00",
+      "timeframe": "5m",
+      "lunch_skip": false,
+      "use_global": false,
+      "risk_percent": 1.5,
+      "sl_percent": 1.0,
+      "tp_percent": 2.0
+    }
+  ],
+  "api_key": "PKGGKEOL1JDKHWOEL8PL",
+  "api_secret": "vatOtrjiLP6jmIhwQj3gX8hatcILcC1j8fFQueYx"
+}
